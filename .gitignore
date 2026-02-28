@@ -1,0 +1,82 @@
+# ============================================================================
+# Unreal Engine 5 .gitignore
+# ============================================================================
+
+# Compiled binaries
+Binaries/
+
+# Build intermediates
+Intermediate/
+
+# Derived data cache (shader compilation, cooked assets, etc.)
+DerivedDataCache/
+
+# Editor saved state (autosaves, logs, crash reports, local settings)
+Saved/
+
+# UE content assets (uassets, umaps — large binaries, not source)
+Content/
+
+# Reference template code (Epic samples kept locally)
+Reference/
+
+# ============================================================================
+# IDE / Editor
+# ============================================================================
+
+# Visual Studio
+.vs/
+*.vsconfig
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (Rider)
+.idea/
+*.iml
+
+# ============================================================================
+# AI Tooling (local config)
+# ============================================================================
+
+.claude/
+.cursorrules
+
+# ============================================================================
+# Plugins (marketplace / third-party — install separately)
+# ============================================================================
+
+Plugins/VisualStudioTools/
+
+# ============================================================================
+# OS Files
+# ============================================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.Trash-*
+
+# ============================================================================
+# Misc
+# ============================================================================
+
+# Ignore ripgrep/search tool config (local only)
+.ignore
